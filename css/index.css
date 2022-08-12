@@ -1,0 +1,221 @@
+
+body{
+    width:95%;
+    margin:auto;
+    position:relative;
+}
+
+
+
+/* -----------navbar section starts--------- */
+
+nav{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.nav-items{
+    display:flex;
+    justify-content: space-evenly;
+    font-family: 'Fredoka One';
+font-weight: lighter;
+cursor:pointer;
+}
+
+.nav-item{
+    padding:5px 55px;
+    font-size: 18px;
+}
+
+.active-item{
+color:#fe5e35;
+
+}
+
+
+/* ---------nav bar section ends------- */
+/* ----------intro section starts------------- */
+
+.intro-section{
+ display:flex;
+justify-content: space-between;
+}
+
+
+
+/* ---------intro left side text part---- */
+.left-section{
+    width: 50%;
+    /* line-height: 30px; */
+
+}
+
+.left-section h3{
+  font-size: 3rem;
+  font-family: 'Poppins';
+
+}
+
+.left-section h3 img{
+    width:50px;
+}
+
+.left-section h1{
+    font-family: 'Fredoka One';
+    font-weight: 200;
+    font-size:4rem ;
+}
+
+
+.sub-headline{
+font-size: 15px;
+margin-left:70px;
+font-family: 'Poppins';
+
+}
+
+.sub-headline img{
+background-color: #fe5e35;
+border-radius: 50px;
+width:15px;
+margin:6px 5px 2px 5px;
+padding:3px;
+}
+
+.text{
+    font-family: 'Poppins';
+    font-size: 12px;
+    color:grey;
+
+}
+
+.action-btn{
+background-color:#fe5e35;
+color:white;
+padding:12px 28px;
+border-radius: 20px;
+border:none;
+margin:15px;
+cursor:pointer;
+
+}
+
+/* ---------intro right side------- */
+
+.discount{
+    position:absolute;
+  top:50%;
+  width:140px;
+  font-family: 'Fredoka One';
+
+}
+
+.discount-content{
+line-height:5px;
+position:absolute;
+top:52%;
+left:61%;
+color:white;
+
+}
+.discount-content h1{
+font-size: 3rem;
+font-family: 'Poppins';
+
+}
+
+.dots{
+display:flex;
+justify-content: center;
+}
+
+
+.yellow-dot{
+width:15px;
+height:15px;
+border-radius: 50%;
+background-color: #fbd104;
+margin:2px 0.8rem;
+}
+.tomato-dot{
+width:15px;
+height:15px;
+border-radius: 50%;
+background-color:#fe5e35;
+margin:2px 0.8rem;
+
+}
+
+.black-dot{
+width:15px;
+height:15px;
+border-radius: 50%;
+background-color: black;
+margin:2px 0.8rem;
+
+}
+.right-section .action-btn{
+margin:35px 15rem;
+
+}
+
+
+/* ---------------intro section ends------------------- */
+
+
+/* ----------media queries start-------------- */
+
+@media screen and (max-width:1250px){
+    .discount-content{
+        left:40%;
+    }
+}
+
+@media screen and (max-width:800px){
+
+/* -------nav bar----------- */
+.nav-items{
+display:none;
+
+}
+
+/* ---------intro section------ */
+
+
+.intro-section{
+display:flex;
+flex-direction: column;
+}
+.left-section{
+    width: 90%;
+    /* line-height: 30px; */
+    margin:auto;
+}
+
+.discount-content{
+    left:8%;
+
+}
+img[src="./images/headphones.jpg"]{
+
+ width:600px;
+}
+
+
+}
+
+
+@media screen and (max-width:400px){
+
+
+    img[src="./images/headphones.jpg"]{
+
+        width:400px;
+       }
+
+
+
+
+
+}
