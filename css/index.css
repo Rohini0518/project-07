@@ -175,9 +175,17 @@ margin:35px 15rem;
 @media screen and (max-width:800px){
 
 /* -------nav bar----------- */
+body{
+    overflow: hidden;
+}
 .nav-items{
 display:none;
 
+}
+
+nav{
+
+ margin:10px;
 }
 
 /* ---------intro section------ */
@@ -192,30 +200,51 @@ flex-direction: column;
     /* line-height: 30px; */
     margin:auto;
 }
+.text{
+width:80%;
 
+}
 .discount-content{
     left:8%;
-
+    top:59%;
 }
+.discount{
+    top:58%;
+}
+
 img[src="./images/headphones.jpg"]{
 
- width:600px;
+ width:400px;
 }
-
+.headphone-div{
+    margin-top: 100px;
+}
+.right-section .action-btn{
+padding:10px 55px;
+margin-left:30%;
+}
 
 }
 
 
 @media screen and (max-width:400px){
 
+    .discount-content{
+        left:10%;
+    }
 
     img[src="./images/headphones.jpg"]{
 
-        width:400px;
+        width:500px;
        }
 
-
-
-
-
 }
+
+
+/* -----media queries-------- */
+
+
+
+
+
+

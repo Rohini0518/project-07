@@ -16,5 +16,9 @@ This landing page, took me almost 5 hrs to complete,this is my project 07 in ful
 
 ![project 7](./screenshot.png)
 
+### Mobile view:
+
+![project 7](mb-rspve%20scrnt.png)
+
 ## Here is live link
 [Live link](https://rohini-project07.netlify.app/)
